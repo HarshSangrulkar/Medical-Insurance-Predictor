@@ -1,0 +1,858 @@
+Age,Sex,BMI,Children,Smoker,Region,Charges,Chronic_Condition,Physical_Activity_Level,Previous_Medical_Costs,Smoking_Duration,Family_History,Occupation,Healthcare_Cost_Index,Dietary_Habits,
+19,female,27.9,0,yes,southwest,16884.924,yes,Active,$2500,5,no,student,1.2,Balanced,
+18,male,33.77,1,no,southeast,1725.5523,no,Sedentary,$400,0,no,clerk,0.8,High-fat,
+28,male,33,3,no,southeast,4449.462,no,Moderate,$1000,0,yes,manual labor,1,Balanced,
+33,male,22.705,0,no,northwest,21984.4706,no,Active,$3000,0,no,IT professional,1.3,Vegetarian,
+32,male,28.88,0,no,northwest,3866.8552,no,Moderate,$250,0,yes,sales,1.1,Balanced,
+31,female,25.74,0,no,southeast,3756.6216,no,Sedentary,$4000,0,no,administrative,0.9,Balanced,
+46,female,33.44,1,no,southeast,8240.5896,no,Moderate,$900,0,no,nurse,1.1,Balanced,
+37,female,27.74,3,no,northwest,7281.5056,yes,Active,$3500,0,yes,teacher,1.2,Balanced,
+37,male,29.83,2,no,northeast,6406.4107,no,Sedentary,$2800,0,no,engineer,1,High-fat,
+60,female,25.84,0,no,northwest,28923.1369,no,Moderate,$600,0,yes,retired,1.4,Vegetarian,
+25,male,26.22,0,no,northeast,2721.3208,no,Sedentary,$500,0,no,technician,1,Balanced,
+62,female,26.29,0,yes,southeast,27808.7251,yes,Active,$300,10,no,executive,1.3,Balanced,
+23,male,34.4,0,no,southwest,1826.843,no,Moderate,$800,0,no,student,0.8,Balanced,
+56,female,39.82,0,no,southeast,11090.7178,yes,Sedentary,$700,0,yes,healthcare,1.2,High-fat,
+27,male,42.13,0,yes,southeast,39611.7577,yes,Active,$800,7,no,sales,1.3,Balanced,
+19,male,24.6,1,no,southwest,1837.237,no,Sedentary,$200,0,no,student,0.8,Balanced,
+52,female,30.78,1,no,northeast,10797.3362,no,Moderate,$500,0,yes,management,1.1,Balanced,
+23,male,23.845,0,no,northeast,2395.1716,no,Active,$300,0,no,student,0.9,Balanced,
+56,male,40.3,0,no,southwest,10602.385,no,Sedentary,$400,0,yes,retired,1.2,High-fat,
+30,male,35.3,0,yes,southwest,36837.467,yes,Active,$100,6,yes,IT professional,1.4,Balanced,
+60,female,36.005,0,no,northeast,13228.8469,no,Moderate,$500,0,no,executive,1.2,Balanced,
+30,female,32.4,1,no,southwest,4149.736,no,Moderate,$300,0,no,clerk,0.9,Balanced,
+18,male,34.1,0,no,southeast,1137.011,no,Sedentary,$3500,0,no,student,0.8,High-fat,
+34,female,31.92,1,yes,northeast,37701.8768,yes,Active,$800,5,yes,manager,1.4,Balanced,
+37,male,28.025,2,no,northwest,6203.9018,no,Sedentary,$600,0,no,engineer,1.1,Balanced,
+59,female,27.72,3,no,southeast,14001.1338,no,Moderate,$600,0,yes,healthcare,1.3,Balanced,
+63,female,23.085,0,no,northeast,14451.8352,no,Sedentary,$800,0,no,retired,1.2,Vegetarian,
+55,female,32.775,2,no,northwest,12268.6323,yes,Moderate,$400,0,yes,teacher,1.2,Balanced,
+23,male,17.385,1,no,northwest,2775.1922,no,Sedentary,$100,0,no,student,0.9,High-fat,
+31,male,36.3,2,yes,southwest,38711,yes,Active,$500,8,yes,IT professional,1.4,Balanced,
+22,male,35.6,0,yes,southwest,35585.576,yes,Active,$300,10,no,executive,1.3,Balanced,
+18,female,26.315,0,no,northeast,2198.1899,no,Moderate,$700,0,no,clerk,0.8,Balanced,
+19,female,28.6,5,no,southwest,4687.797,no,Active,$5000,0,yes,student,1.1,Balanced,
+63,male,28.31,0,no,northwest,13770.0979,no,Sedentary,$500,0,no,retired,1.1,Balanced,
+28,male,36.4,1,yes,southwest,51194.5591,yes,Active,$700,6,yes,IT professional,1.4,Balanced,
+19,male,20.425,0,no,northwest,1625.4338,no,Sedentary,$400,0,no,student,0.8,High-fat,
+62,female,32.965,3,no,northwest,15612.1934,no,Moderate,$500,0,yes,executive,1.2,Balanced,
+26,male,20.8,0,no,southwest,2302.3,no,Sedentary,$300,0,no,technician,0.9,Balanced,
+35,male,36.67,1,yes,northeast,39774.2763,yes,Active,$200,7,yes,manager,1.4,Balanced,
+60,male,39.9,0,yes,southwest,48173.361,yes,Active,$100,10,no,executive,1.5,Balanced,
+24,female,26.6,0,no,northeast,3046.062,no,Sedentary,$400,0,no,clerk,0.9,Balanced,
+31,female,36.63,2,no,southeast,4949.7587,no,Moderate,$100,0,no,administrative,1.1,Balanced,
+41,male,21.78,1,no,southeast,6272.4772,no,Sedentary,$200,0,no,technician,1,Balanced,
+37,female,30.8,2,no,southeast,6313.759,no,Moderate,$300,0,no,nurse,1.1,Balanced,
+38,male,37.05,1,no,northeast,6079.6715,no,Sedentary,$600,0,yes,engineer,1.2,High-fat,
+55,male,37.3,0,no,southwest,20630.2835,yes,Active,$300,0,yes,retired,1.3,Balanced,
+18,female,38.665,2,no,northeast,3393.3564,no,Sedentary,$400,0,no,clerk,1,Balanced,
+28,female,34.77,0,no,northwest,3556.9223,no,Moderate,$200,0,no,student,1.1,Balanced,
+60,female,24.53,0,no,southeast,12629.8967,no,Sedentary,$600,0,yes,retired,1.2,Balanced,
+36,male,35.2,1,yes,southeast,38709.176,yes,Active,$300,5,yes,IT professional,1.4,Balanced,
+18,female,35.625,0,no,northeast,2211.1308,no,Moderate,$3000,0,no,clerk,0.8,Balanced,
+21,female,33.63,2,no,northwest,3579.8287,no,Sedentary,$400,0,no,student,1,Balanced,
+48,male,28,1,yes,southwest,23568.272,yes,Active,$500,6,yes,IT professional,1.3,Balanced,
+36,male,34.43,0,yes,southeast,37742.5757,yes,Active,$300,5,no,manager,1.4,Balanced,
+40,female,28.69,3,no,northwest,8059.6791,no,Moderate,$3500,0,yes,nurse,1.2,Balanced,
+58,male,36.955,2,yes,northwest,47496.4944,yes,Active,$300,8,yes,executive,1.5,Balanced,
+58,female,31.825,2,no,northeast,13607.3688,no,Sedentary,$500,0,no,nurse,1.1,Balanced,
+18,male,31.68,2,yes,southeast,34303.1672,yes,Active,$200,6,yes,IT professional,1.4,Balanced,
+53,female,22.88,1,yes,southeast,23244.7902,yes,Moderate,$800,5,no,manager,1.3,Balanced,
+34,female,37.335,2,no,northwest,5989.5237,no,Sedentary,$300,0,no,teacher,1.1,Balanced,
+43,male,27.36,3,no,northeast,8606.2174,no,Moderate,$500,0,no,engineer,1.2,Balanced,
+25,male,33.66,4,no,southeast,4504.6624,no,Sedentary,$600,0,yes,technician,1.1,Balanced,
+64,male,24.7,1,no,northwest,30166.6182,no,Moderate,$600,0,no,retired,1.2,Balanced,
+28,female,25.935,1,no,northwest,4133.6417,no,Sedentary,$300,0,no,student,1,Balanced,
+20,female,22.42,0,yes,northwest,14711.7438,yes,Active,$200,4,yes,manager,1.3,Balanced,
+19,female,28.9,0,no,southwest,1743.214,no,Sedentary,$300,0,no,student,0.8,Balanced,
+61,female,39.1,2,no,southwest,14235.072,no,Moderate,$2000,0,yes,nurse,1.1,Balanced,
+40,male,26.315,1,no,northwest,6389.3779,no,Sedentary,$500,0,no,technician,1,Balanced,
+40,female,36.19,0,no,southeast,5920.1041,no,Moderate,$500,0,no,nurse,1,Balanced,
+28,male,23.98,3,yes,southeast,17663.1442,yes,Active,$400,6,yes,manager,1.4,Balanced,
+27,female,24.75,0,yes,southeast,16577.7795,yes,Moderate,$4000,5,yes,nurse,1.3,Balanced,
+31,male,28.5,5,no,northeast,6799.458,no,Sedentary,$3000,0,no,technician,1,Balanced,
+53,female,28.1,3,no,southwest,11741.726,no,Moderate,$700,0,no,teacher,1.1,Balanced,
+58,male,32.01,1,no,southeast,11946.6259,no,Active,$400,0,no,technician,1.1,Balanced,
+44,male,27.4,2,no,southwest,7726.854,no,Sedentary,$300,0,no,manager,1,Balanced,
+57,male,34.01,0,no,northwest,11356.6609,no,Moderate,$400,0,no,engineer,1.1,Balanced,
+29,female,29.59,1,no,southeast,3947.4131,no,Moderate,$500,0,no,teacher,1,Balanced,
+21,male,35.53,0,no,southeast,1532.4697,no,Sedentary,$300,0,no,technician,0.9,Balanced,
+22,female,39.805,0,no,northeast,2755.0209,no,Moderate,$500,0,no,clerk,1,Balanced,
+41,female,32.965,0,no,northwest,6571.0243,no,Sedentary,$100,0,no,nurse,1,Balanced,
+31,male,26.885,1,no,northeast,4441.2132,no,Moderate,$200,0,no,teacher,1.1,Balanced,
+45,female,38.285,0,no,northeast,7935.2912,no,Sedentary,$600,0,no,technician,1,Balanced,
+22,male,37.62,1,yes,southeast,37165.1638,yes,Active,$3000,7,yes,executive,1.4,Balanced,
+48,female,41.23,4,no,northwest,11033.6617,no,Sedentary,$200,0,no,retired,1.1,Balanced,
+37,female,34.8,2,yes,southwest,39836.519,yes,Moderate,$500,5,yes,nurse,1.3,Balanced,
+45,male,22.895,2,yes,northwest,21098.554,yes,Active,$3500,8,yes,manager,1.4,Balanced,
+57,female,31.16,0,yes,northwest,43578.9394,yes,Active,$500,6,yes,executive,1.3,Balanced,
+56,female,27.2,0,no,southwest,11073.176,no,Moderate,$3500,0,no,teacher,1,Balanced,
+46,female,27.74,0,no,northwest,8026.6666,no,Sedentary,$400,0,no,technician,1,Balanced,
+55,female,26.98,0,no,northwest,11082.577,no,Moderate,$800,0,no,teacher,1.1,Balanced,
+21,female,39.49,0,no,southeast,2026.9741,no,Sedentary,$600,0,no,administrative,1,Balanced,
+53,female,24.795,1,no,northwest,10942.132,no,Sedentary,$3500,0,no,nurse,1,Balanced,
+59,male,29.83,3,yes,northeast,30184.9367,yes,Active,$600,8,yes,executive,1.4,Balanced,
+35,male,34.77,2,no,northwest,5729.0053,no,Moderate,$300,0,no,teacher,1.1,Balanced,
+64,female,31.3,2,yes,southwest,47291.055,yes,Active,$200,6,yes,manager,1.4,Balanced,
+28,female,37.62,1,no,southeast,3766.8838,no,Moderate,$100,0,no,teacher,1.1,Balanced,
+54,female,30.8,3,no,southwest,12105.32,no,Active,$500,4,no,manager,1.2,Balanced,
+55,male,38.28,0,no,southeast,10226.284,no,Moderate,$3000,0,no,technician,1,Balanced,
+56,male,19.95,0,yes,northeast,22412.6485,yes,Active,$3500,6,yes,retired,1.4,Balanced,
+38,male,19.3,0,yes,southwest,15820.699,yes,Active,$3000,5,yes,retired,1.4,Balanced,
+41,female,31.6,0,no,southwest,6186.127,no,Moderate,$400,0,no,nurse,1.1,Balanced,
+30,male,25.46,0,no,northeast,3645.0894,no,Sedentary,$200,0,no,technician,1,Balanced,
+20,female,28.73,1,yes,southwest,16230.348,yes,Active,$3500,2,yes,IT professional,1.4,Balanced,
+36,male,38.51,2,no,southwest,12572.417,no,Sedentary,$3000,0,no,engineer,1.1,Balanced,
+23,female,38.415,1,yes,northeast,32583.6091,yes,Active,$300,6,yes,IT professional,1.4,Balanced,
+35,male,35.53,2,no,southeast,7692.7013,no,Moderate,$400,0,no,engineer,1.2,Balanced,
+51,female,23.97,1,no,northwest,33861.8442,yes,Active,$400,6,yes,manager,1.4,Balanced,
+56,male,22.835,0,no,southeast,16569.938,no,Moderate,$300,0,no,engineer,1.1,Balanced,
+60,male,25.1,3,no,southwest,16319.715,no,Moderate,$200,0,no,retired,1.2,Balanced,
+35,male,22.27,1,yes,southwest,33118.524,yes,Active,$300,8,yes,executive,1.4,Balanced,
+40,female,27.85,0,no,southwest,4831.855,no,Sedentary,$200,0,no,technician,1,Balanced,
+22,female,34.5,0,yes,southeast,17057.7025,yes,Active,$200,2,yes,IT professional,1.4,Balanced,
+55,female,26.66,0,no,southwest,12892.882,no,Sedentary,$300,0,no,teacher,1,Balanced,
+31,female,24.865,2,no,northeast,5504.7476,no,Sedentary,$400,0,no,technician,1,Balanced,
+41,female,27.63,2,no,northeast,11727.059,no,Sedentary,$400,0,no,nurse,1.1,Balanced,
+54,female,29.49,2,yes,southwest,23471.449,yes,Moderate,$3000,4,yes,IT professional,1.3,Balanced,
+58,female,26.08,2,no,northeast,13392.1516,no,Active,$3000,5,yes,manager,1.3,Balanced,
+24,male,30.89,0,no,southeast,5196.9514,no,Sedentary,$300,0,no,technician,1,Balanced,
+48,female,38.9,2,no,southwest,16218.879,no,Sedentary,$400,0,no,nurse,1.1,Balanced,
+32,female,25.35,1,no,southwest,23805.0537,yes,Active,$200,5,yes,IT professional,1.3,Balanced,
+35,female,27.78,2,no,southeast,13291.7888,no,Sedentary,$3500,0,no,administrative,1,Balanced,
+42,male,27.65,2,no,southeast,10312.1484,no,Sedentary,$400,0,no,technician,1,Balanced,
+25,female,27.22,1,yes,southwest,4820.268,yes,Moderate,$300,0,yes,manager,1.1,Balanced,
+47,female,31.02,1,no,southeast,6234.174,no,Moderate,$200,0,no,technician,1,Balanced,
+25,female,37.32,1,yes,southeast,15092.905,yes,Moderate,$200,5,yes,nurse,1.3,Balanced,
+54,male,29.7,0,no,southeast,21745.079,no,Moderate,$300,0,no,technician,1.2,Balanced,
+24,male,22.865,0,no,southwest,2537.7544,no,Sedentary,$200,0,no,student,0.8,Balanced,
+30,male,22.905,0,no,southwest,3168.0776,no,Sedentary,$400,0,no,student,0.8,Balanced,
+53,male,37.9,1,yes,southeast,22870.2538,yes,Active,$200,6,yes,IT professional,1.3,Balanced,
+46,female,22.58,0,no,southeast,11918.799,no,Sedentary,$500,0,no,administrative,1,Balanced,
+48,female,38.72,1,no,northeast,15999.618,no,Moderate,$400,0,no,nurse,1,Balanced,
+54,female,28.36,1,yes,southeast,25046.246,yes,Active,$3000,2,yes,IT professional,1.3,Balanced,
+25,male,25.8,2,no,southwest,3154.2314,no,Sedentary,$300,0,no,student,0.8,Balanced,
+44,female,39.78,1,no,southeast,22613.418,no,Moderate,$200,2,no,teacher,1.2,Balanced,
+35,female,35.75,2,no,southwest,5981.2033,no,Sedentary,$600,0,no,nurse,1,Balanced,
+30,male,28.67,0,yes,southeast,11469.316,yes,Moderate,$400,0,yes,IT professional,1.4,Balanced,
+29,female,27.3,2,no,southeast,8800.805,no,Sedentary,$500,0,no,teacher,1.1,Balanced,
+48,female,33.9,0,yes,southwest,18950.715,yes,Moderate,$200,3,yes,manager,1.3,Balanced,
+36,male,33.85,1,no,northwest,8495.542,no,Moderate,$500,0,no,engineer,1.2,Balanced,
+50,female,33.2,3,yes,southeast,14838.933,yes,Moderate,$500,5,yes,IT professional,1.2,Balanced,
+30,male,28.52,1,yes,southeast,14570.621,yes,Active,$500,4,yes,manager,1.4,Balanced,
+37,female,36.67,1,no,northeast,6494.155,no,Moderate,$200,0,no,nurse,1.1,Balanced,
+52,male,29.28,0,yes,southeast,20194.815,yes,Active,$400,3,yes,manager,1.4,Balanced,
+28,male,34.37,2,no,northwest,8127.516,no,Sedentary,$200,0,no,technician,1,Balanced,
+25,female,24.14,0,yes,southeast,27893.383,yes,Active,$200,1,yes,manager,1.3,Balanced,
+41,female,36.42,0,no,southeast,6911.042,no,Moderate,$600,0,no,nurse,1.1,Balanced,
+53,male,27.05,2,no,southeast,12464.563,no,Moderate,$300,0,no,technician,1,Balanced,
+54,female,29.3,1,no,southeast,26425.065,yes,Active,$400,3,yes,manager,1.3,Balanced,
+33,male,22.45,0,yes,southeast,21937.975,yes,Moderate,$3000,0,yes,IT professional,1.4,Balanced,
+53,male,36.36,3,no,southeast,22615.345,yes,Active,$300,6,yes,manager,1.3,Balanced,
+41,female,30.55,0,no,southeast,6877.452,no,Moderate,$300,0,no,nurse,1.1,Balanced,
+30,female,33.29,2,no,southeast,7226.501,no,Moderate,$300,0,no,technician,1,Balanced,
+45,female,22.8,1,yes,southeast,29040.889,yes,Active,$200,6,yes,IT professional,1.3,Balanced,
+50,female,24.97,0,no,southeast,19032.486,no,Moderate,$200,0,no,teacher,1,Balanced,
+31,female,23.43,0,no,southeast,4532.615,no,Sedentary,$400,0,no,nurse,1,Balanced,
+53,male,27.82,2,yes,southeast,15347.075,yes,Active,$400,6,yes,executive,1.4,Balanced,
+37,female,25,0,yes,southeast,11853.754,yes,Active,$300,5,yes,executive,1.4,Balanced,
+46,male,33.4,0,no,southwest,8146.341,no,Moderate,$400,0,no,engineer,1.1,Balanced,
+41,female,34.1,1,yes,southeast,22285.814,yes,Active,$300,2,yes,executive,1.4,Balanced,
+25,female,27.6,1,yes,southeast,15350.563,yes,Active,$300,5,yes,manager,1.4,Balanced,
+46,female,36.03,1,yes,southeast,21257.981,yes,Active,$400,5,yes,manager,1.4,Balanced,
+42,male,23.28,2,no,southeast,10785.905,no,Sedentary,$300,0,no,technician,1,Balanced,
+30,male,31.16,1,yes,southeast,15591.179,yes,Active,$300,3,yes,executive,1.4,Balanced,
+22,female,37.23,0,yes,southwest,18913.698,yes,Active,$200,2,yes,IT professional,1.4,Balanced,
+33,male,22.92,2,no,southeast,10466.978,no,Sedentary,$300,0,no,student,0.8,Balanced,
+25,female,26.36,0,no,southeast,24165.286,no,Moderate,$400,0,no,manager,1.2,Balanced,
+47,male,30.65,1,yes,southeast,13095.756,yes,Active,$100,5,yes,executive,1.4,Balanced,
+34,male,26.5,2,no,southeast,10941.604,no,Sedentary,$300,0,no,student,0.8,Balanced,
+25,female,35.86,0,yes,northeast,20690.963,yes,Active,$400,3,yes,executive,1.3,Balanced,
+24,female,27.37,0,yes,northeast,13609.428,yes,Active,$400,2,yes,IT professional,1.4,Balanced,
+52,male,28.92,0,yes,southeast,19585.758,yes,Moderate,$300,2,yes,IT professional,1.4,Balanced,
+38,male,27.57,2,no,southwest,10713.406,no,Sedentary,$200,0,no,student,0.8,Balanced,
+52,male,31.7,2,no,southeast,17394.294,no,Moderate,$200,0,no,technician,1.2,Balanced,
+22,female,26.67,0,yes,southeast,14272.372,yes,Active,$300,2,yes,IT professional,1.3,Balanced,
+30,male,31.9,2,no,southeast,20612.84,yes,Moderate,$300,3,yes,executive,1.4,Balanced,
+46,male,26.77,2,yes,southwest,18198.103,yes,Active,$400,4,yes,IT professional,1.3,Balanced,
+28,female,32.62,1,no,southeast,10962.855,no,Moderate,$300,0,no,nurse,1.1,Balanced,
+31,female,35.47,2,no,southwest,25682.028,no,Active,$300,4,yes,executive,1.4,Balanced,
+22,female,29.98,0,yes,southeast,21381.166,yes,Active,$200,2,yes,IT professional,1.3,Balanced,
+35,female,28.63,1,no,southwest,17815.052,no,Sedentary,$400,0,no,manager,1.2,Balanced,
+43,female,28.22,0,yes,southeast,15820.883,yes,Active,$200,2,yes,executive,1.4,Balanced,
+44,male,34.15,0,no,southwest,11415.676,no,Sedentary,$300,0,no,student,0.8,Balanced,
+53,male,31.35,1,yes,southwest,21704.803,yes,Active,$300,5,yes,IT professional,1.4,Balanced,
+23,female,34.65,2,no,southeast,17178.099,no,Sedentary,$300,0,no,nurse,1.1,Balanced,
+28,male,35.82,2,no,southeast,19176.741,no,Sedentary,$200,0,no,manager,1.2,Balanced,
+34,female,28.57,0,no,northeast,14822.039,no,Moderate,$300,0,no,nurse,1.1,Balanced,
+36,male,27.22,1,no,southwest,17028.542,no,Moderate,$400,0,no,technician,1.2,Balanced,
+38,female,36.28,1,yes,southwest,18283.568,yes,Moderate,$200,6,yes,manager,1.3,Balanced,
+40,female,35.64,2,yes,southeast,14273.583,yes,Active,$200,6,yes,executive,1.4,Balanced,
+44,male,26.83,0,yes,southeast,25432.726,yes,Active,$400,1,yes,manager,1.3,Balanced,
+45,female,35.27,2,yes,southeast,18719.915,yes,Active,$400,4,yes,executive,1.4,Balanced,
+24,female,24.56,1,yes,southeast,15446.733,yes,Active,$500,2,yes,IT professional,1.3,Balanced,
+27,female,25.4,0,yes,southeast,15237.388,yes,Active,$200,1,yes,IT professional,1.3,Balanced,
+33,male,27.24,2,yes,southeast,13832.703,yes,Moderate,$300,1,yes,IT professional,1.3,Balanced,
+25,male,26.54,2,yes,southeast,12880.661,yes,Active,$300,3,yes,IT professional,1.3,Balanced,
+26,female,27.63,0,no,southeast,11755.279,no,Sedentary,$400,0,no,administrative,1,Balanced,
+47,male,28.52,0,yes,southeast,12778.648,yes,Active,$300,2,yes,manager,1.4,Balanced,
+27,male,31.6,1,no,southeast,17093.528,yes,Moderate,$200,3,yes,manager,1.3,Balanced,
+27,male,26.76,0,yes,southeast,13359.728,yes,Moderate,$300,3,yes,IT professional,1.3,Balanced,
+52,female,32.26,1,yes,southeast,15995.351,yes,Active,$200,2,yes,IT professional,1.4,Balanced,
+31,female,30.75,2,no,southeast,15338.496,no,Moderate,$300,0,no,manager,1.3,Balanced,
+45,male,35.52,0,no,southeast,14118.294,no,Active,$300,0,no,technician,1.2,Balanced,
+31,female,27.26,2,no,southwest,9322.76,no,Active,$3000,3,yes,IT professional,1.4,Balanced,
+19,male,28.4,1,no,southwest,1842.519,No,Low,$200,None,No,Student,0.2,Balanced,
+35,male,24.13,1,no,northwest,5125.2157,No,Moderate,$500,None,No,Engineer,0.5,Balanced,
+48,male,29.7,0,no,southeast,7789.635,Yes,High,$1200,10 years,Yes,Manager,0.7,High in Protein,
+32,female,37.145,3,no,northeast,6334.34355,No,Moderate,$800,None,No,Teacher,0.4,Vegetarian,
+42,female,23.37,0,yes,northeast,19964.7463,Yes,High,$2500,15 years,Yes,Executive,0.9,Balanced,
+40,female,25.46,1,no,northeast,7077.1894,No,Low,$400,None,No,Nurse,0.3,Balanced,
+44,male,39.52,0,no,northwest,6948.7008,Yes,Moderate,$1000,None,No,Consultant,0.6,High in Protein,
+48,male,24.42,0,yes,southeast,21223.6758,No,High,$3000,20 years,Yes,Director,0.8,High in Protein,
+18,male,25.175,0,yes,northeast,15518.18025,No,Low,$250,2 years,No,Student,0.2,Balanced,
+30,male,35.53,0,yes,southeast,36950.2567,Yes,High,$4000,10 years,Yes,Entrepreneur,0.9,High in Protein,
+50,female,27.83,3,no,southeast,19749.38338,No,Moderate,$900,None,No,Accountant,0.5,Balanced,
+42,female,26.6,0,yes,northwest,21348.706,Yes,High,$3500,12 years,Yes,Manager,0.8,Vegetarian,
+18,female,36.85,0,yes,southeast,36149.4835,No,High,$2800,3 years,No,Student,0.4,Balanced,
+54,male,39.6,1,no,southwest,10450.552,No,Low,$600,None,No,Retired,0.3,Balanced,
+32,female,29.8,2,no,southwest,5152.134,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+37,male,29.64,0,no,northwest,5028.1466,No,Low,$300,None,No,Developer,0.3,Balanced,
+47,male,28.215,4,no,northeast,10407.08585,No,Moderate,$800,None,No,Engineer,0.5,Balanced,
+20,female,37,5,no,southwest,4830.63,No,Moderate,$700,None,No,Student,0.4,Balanced,
+32,female,33.155,3,no,northwest,6128.79745,No,Moderate,$800,None,No,Teacher,0.5,Balanced,
+19,female,31.825,1,no,northwest,2719.27975,No,Low,$200,None,No,Student,0.2,Balanced,
+27,male,18.905,3,no,northeast,4827.90495,No,Moderate,$500,None,No,Student,0.3,Balanced,
+63,male,41.47,0,no,southeast,13405.3903,No,Low,$300,None,No,Retired,0.2,Balanced,
+49,male,30.3,0,no,southwest,8116.68,No,Low,$400,None,No,Manager,0.3,Balanced,
+18,male,15.96,0,no,northeast,1694.7964,No,Low,$100,None,No,Student,0.2,Balanced,
+35,female,34.8,1,no,southwest,5246.047,No,Low,$500,None,No,Accountant,0.3,Balanced,
+24,female,33.345,0,no,northwest,2855.43755,No,Low,$300,None,No,Student,0.2,Balanced,
+63,female,37.7,0,yes,southwest,48824.45,Yes,High,$3500,15 years,Yes,Retired,0.9,High in Protein,
+38,male,27.835,2,no,northwest,6455.86265,No,Moderate,$800,None,No,Engineer,0.5,Balanced,
+54,male,29.2,1,no,southwest,10436.096,No,Low,$600,None,No,Retired,0.3,Balanced,
+46,female,28.9,2,no,southwest,8823.279,No,Moderate,$600,None,No,Teacher,0.4,Balanced,
+41,female,33.155,3,no,northeast,8538.28845,No,Moderate,$800,None,No,Consultant,0.5,Balanced,
+58,male,28.595,0,no,northwest,11735.87905,No,Low,$400,None,No,Manager,0.3,Balanced,
+18,female,38.28,0,no,southeast,1631.8212,No,Low,$100,None,No,Student,0.2,Balanced,
+22,male,19.95,3,no,northeast,4005.4225,No,Moderate,$500,None,No,Student,0.3,Balanced,
+44,female,26.41,0,no,northwest,7419.4779,No,Low,$300,None,No,Teacher,0.3,Balanced,
+44,male,30.69,2,no,southeast,7731.4271,No,Moderate,$700,None,No,Consultant,0.5,Balanced,
+36,male,41.895,3,yes,northeast,43753.33705,Yes,High,$5000,12 years,Yes,Manager,0.8,High in Protein,
+26,female,29.92,2,no,southeast,3981.9768,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+30,female,30.9,3,no,southwest,5325.651,No,Moderate,$700,None,No,Accountant,0.5,Balanced,
+41,female,32.2,1,no,southwest,6775.961,No,Low,$400,None,No,Nurse,0.3,Balanced,
+29,female,32.11,2,no,northwest,4922.9159,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+61,male,31.57,0,no,southeast,12557.6053,No,Low,$300,None,No,Retired,0.2,Balanced,
+36,female,26.2,0,no,southwest,4883.866,No,Low,$200,None,No,Teacher,0.2,Balanced,
+25,male,25.74,0,no,southeast,2137.6536,No,Low,$100,None,No,Student,0.2,Balanced,
+56,female,26.6,1,no,northwest,12044.342,No,Low,$400,None,No,Retired,0.3,Balanced,
+18,male,34.43,0,no,southeast,1137.4697,No,Low,$100,None,No,Student,0.2,Balanced,
+19,male,30.59,0,no,northwest,1639.5631,No,Low,$200,None,No,Student,0.2,Balanced,
+39,female,32.8,0,no,southwest,5649.715,No,Low,$300,None,No,Consultant,0.3,Balanced,
+45,female,28.6,2,no,southeast,8516.829,No,Moderate,$600,None,No,Teacher,0.4,Balanced,
+51,female,18.05,0,no,northwest,9644.2525,No,Low,$300,None,No,Student,0.3,Balanced,
+64,female,39.33,0,no,northeast,14901.5167,No,Low,$400,None,No,Retired,0.3,Balanced,
+19,female,32.11,0,no,northwest,2130.6759,No,Low,$200,None,No,Student,0.2,Balanced,
+48,female,32.23,1,no,southeast,8871.1517,No,Moderate,$600,None,No,Teacher,0.4,Balanced,
+60,female,24.035,0,no,northwest,13012.20865,No,Low,$300,None,No,Manager,0.3,Balanced,
+27,female,36.08,0,yes,southeast,37133.8982,Yes,High,$3000,10 years,Yes,Entrepreneur,0.8,High in Protein,
+46,male,22.3,0,no,southwest,7147.105,No,Low,$400,None,No,Student,0.3,Balanced,
+28,female,28.88,1,no,northeast,4337.7352,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+59,male,26.4,0,no,southeast,11743.299,No,Low,$300,None,No,Consultant,0.3,Balanced,
+35,male,27.74,2,yes,northeast,20984.0936,Yes,High,$3500,10 years,Yes,Manager,0.9,High in Protein,
+63,female,31.8,0,no,southwest,13880.949,No,Low,$300,None,No,Retired,0.3,Balanced,
+40,male,41.23,1,no,northeast,6610.1097,No,Low,$500,None,No,Consultant,0.4,Balanced,
+20,male,33,1,no,southwest,1980.07,No,Low,$200,None,No,Student,0.2,Balanced,
+40,male,30.875,4,no,northwest,8162.71625,No,Moderate,$800,None,No,Consultant,0.5,Balanced,
+24,male,28.5,2,no,northwest,3537.703,No,Low,$300,None,No,Student,0.3,Balanced,
+34,female,26.73,1,no,southeast,5002.7827,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+45,female,30.9,2,no,southwest,8520.026,No,Moderate,$600,None,No,Consultant,0.5,Balanced,
+41,female,37.1,2,no,southwest,7371.772,No,Moderate,$600,None,No,Teacher,0.4,Balanced,
+53,female,26.6,0,no,northwest,10355.641,No,Low,$300,None,No,Consultant,0.3,Balanced,
+27,male,23.1,0,no,southeast,2483.736,No,Low,$200,None,No,Student,0.2,Balanced,
+26,female,29.92,1,no,southeast,3392.9768,No,Low,$300,None,No,Teacher,0.2,Balanced,
+24,female,23.21,0,no,southeast,25081.76784,No,High,$2000,10 years,Yes,Manager,0.8,High in Protein,
+34,female,33.7,1,no,southwest,5012.471,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+53,female,33.25,0,no,northeast,10564.8845,No,Moderate,$500,None,No,Consultant,0.4,Balanced,
+32,male,30.8,3,no,southwest,5253.524,No,Low,$400,None,No,Teacher,0.3,Balanced,
+19,male,34.8,0,yes,southwest,34779.615,Yes,High,$4000,5 years,Yes,Consultant,0.8,High in Protein,
+42,male,24.64,0,yes,southeast,19515.5416,Yes,High,$3000,5 years,Yes,Manager,0.7,High in Protein,
+55,male,33.88,3,no,southeast,11987.1682,No,Moderate,$700,None,No,Consultant,0.5,Balanced,
+28,male,38.06,0,no,southeast,2689.4954,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+58,female,41.91,0,no,southeast,24227.33724,No,Low,$300,None,No,Retired,0.3,Balanced,
+41,female,31.635,1,no,northeast,7358.17565,No,Low,$400,None,No,Teacher,0.3,Balanced,
+47,male,25.46,2,no,northeast,9225.2564,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+42,female,36.195,1,no,northwest,7443.64305,No,Low,$300,None,No,Teacher,0.2,Balanced,
+59,female,27.83,3,no,southeast,14001.2867,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+19,male,17.8,0,no,southwest,1727.785,No,Low,$100,None,No,Student,0.2,Balanced,
+59,male,27.5,1,no,southwest,12333.828,No,Low,$200,None,No,Teacher,0.3,Balanced,
+39,male,24.51,2,no,northwest,6710.1919,No,Moderate,$600,None,No,Consultant,0.4,Balanced,
+40,female,22.22,2,yes,southeast,19444.2658,Yes,High,$3000,5 years,Yes,Manager,0.7,High in Protein,
+18,female,26.73,0,no,southeast,1615.7667,No,Low,$200,None,No,Student,0.2,Balanced,
+31,male,38.39,2,no,southeast,4463.2051,No,Moderate,$500,None,No,Teacher,0.3,Balanced,
+19,male,29.07,0,yes,northwest,17352.6803,Yes,High,$3500,5 years,Yes,Manager,0.8,High in Protein,
+44,male,38.06,1,no,southeast,7152.6714,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+23,female,36.67,2,yes,northeast,38511.6283,Yes,High,$3500,10 years,Yes,Consultant,0.8,High in Protein,
+33,female,22.135,1,no,northeast,5354.07465,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+55,female,26.8,1,no,southwest,35160.13457,No,High,$800,15 years,Yes,Manager,0.8,High in Protein,
+40,male,35.3,3,no,southwest,7196.867,No,Moderate,$600,None,No,Consultant,0.5,Balanced,
+63,female,27.74,0,yes,northeast,29523.1656,Yes,High,$3500,10 years,Yes,Manager,0.8,High in Protein,
+54,male,30.02,0,no,northwest,24476.47851,No,Moderate,$600,None,No,Teacher,0.4,Balanced,
+60,female,38.06,0,no,southeast,12648.7034,No,Low,$300,None,No,Consultant,0.3,Balanced,
+24,male,35.86,0,no,southeast,1986.9334,No,Low,$200,None,No,Student,0.2,Balanced,
+19,male,20.9,1,no,southwest,1832.094,No,Low,$100,None,No,Student,0.2,Balanced,
+29,male,28.975,1,no,northeast,4040.55825,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+18,male,17.29,2,yes,northeast,12829.4551,Yes,High,$3000,5 years,Yes,Manager,0.8,High in Protein,
+63,female,32.2,2,yes,southwest,47305.305,Yes,High,$3500,10 years,Yes,Manager,0.8,High in Protein,
+54,male,34.21,2,yes,southeast,23144.4774,Yes,High,$3000,10 years,Yes,Manager,0.7,High in Protein,
+41,female,26.07,1,no,northwest,5348.036,No,Low,$400,None,No,Teacher,0.3,Balanced,
+38,female,21.8,0,no,northeast,3676.117,No,Low,$200,None,No,Student,0.2,Balanced,
+42,female,33.24,1,yes,southwest,27335.3142,Yes,High,$3500,10 years,Yes,Manager,0.7,High in Protein,
+48,female,36.2,1,yes,southwest,15326.446,Yes,High,$3000,10 years,Yes,Manager,0.7,High in Protein,
+57,male,34.5,0,no,southeast,10233.163,No,Low,$300,None,No,Retired,0.2,Balanced,
+29,male,22.76,2,no,southwest,5964.4935,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+30,female,37.95,1,no,southwest,9362.6945,No,Low,$400,None,No,Teacher,0.3,Balanced,
+27,female,33.12,1,no,southeast,9291.666,No,Low,$300,None,No,Teacher,0.3,Balanced,
+25,male,21.3,2,no,northeast,2296.3032,No,Low,$200,None,No,Student,0.2,Balanced,
+43,female,26.6,0,no,southeast,5988.604,No,Low,$300,None,No,Consultant,0.3,Balanced,
+26,male,27.1,2,no,northwest,3547.9806,No,Low,$200,None,No,Student,0.2,Balanced,
+43,female,26.9,2,no,northwest,4916.3292,No,Low,$200,None,No,Teacher,0.2,Balanced,
+43,female,27.05,1,no,northwest,4500.0178,No,Low,$300,None,No,Teacher,0.3,Balanced,
+30,female,31.5,1,no,southwest,7558.348,No,Low,$400,None,No,Teacher,0.3,Balanced,
+31,female,29.38,2,no,northwest,4270.833,No,Moderate,$400,None,No,Teacher,0.4,Balanced,
+34,female,34.4,2,no,southwest,28416.6268,No,High,$3000,10 years,Yes,Manager,0.7,High in Protein,
+56,female,36.9,1,no,southeast,17114.0321,No,High,$3000,10 years,Yes,Manager,0.8,High in Protein,
+26,male,36.54,2,no,southwest,3228.9255,No,Low,$300,None,No,Student,0.3,Balanced,
+30,female,34.84,1,no,southeast,7084.016,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+26,female,21.4,1,no,southeast,2098.069,No,Low,$200,None,No,Student,0.2,Balanced,
+35,female,24.8,0,yes,northeast,23379.0145,Yes,High,$3500,10 years,Yes,Manager,0.8,High in Protein,
+41,male,31.54,1,no,northwest,5452.5154,No,Low,$400,None,No,Teacher,0.3,Balanced,
+32,male,36.67,0,no,southwest,4850.3266,No,Low,$300,None,No,Teacher,0.3,Balanced,
+40,female,22.2,0,no,northwest,4537.238,No,Low,$200,None,No,Student,0.2,Balanced,
+33,female,22.15,0,no,southeast,4701.085,No,Low,$200,None,No,Student,0.2,Balanced,
+50,female,26.75,0,no,southeast,11868.1175,No,Low,$300,None,No,Retired,0.3,Balanced,
+26,female,21.43,1,no,southeast,2371.077,No,Low,$200,None,No,Student,0.2,Balanced,
+41,male,28.74,2,no,southeast,5897.676,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+24,female,29.92,1,no,southeast,3942.748,No,Low,$200,None,No,Teacher,0.2,Balanced,
+39,female,31.56,0,no,southwest,12094.564,No,Moderate,$500,None,No,Consultant,0.4,Balanced,
+31,female,30.65,1,no,southeast,7880.519,No,Low,$400,None,No,Teacher,0.3,Balanced,
+29,female,37.25,1,yes,southwest,14872.6572,Yes,High,$3000,10 years,Yes,Manager,0.7,High in Protein,
+30,female,27.5,0,no,northeast,7998.4975,No,Low,$300,None,No,Consultant,0.3,Balanced,
+25,male,26.5,0,no,southwest,2365.475,No,Low,$200,None,No,Student,0.2,Balanced,
+35,male,37.63,2,no,northeast,6660.9934,No,Moderate,$600,None,No,Teacher,0.3,Balanced,
+30,female,35.4,1,no,southeast,9208.639,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+28,male,32.7,2,no,southwest,4460.5384,No,Moderate,$500,None,No,Teacher,0.3,Balanced,
+45,male,25.4,0,no,southwest,1687.5466,No,Low,$200,None,No,Student,0.2,Balanced,
+45,female,31.7,0,no,southwest,11818.6326,No,Moderate,$500,None,No,Consultant,0.4,Balanced,
+56,male,34.5,1,no,southwest,14755.5608,No,Moderate,$500,None,No,Consultant,0.4,Balanced,
+36,male,31.7,1,no,southwest,9567.704,No,Moderate,$500,None,No,Teacher,0.4,Balanced,
+42,female,27.2,1,no,southwest,4627.3125,No,Low,$200,None,No,Student,0.2,Balanced,
+39,male,28.04,0,no,southwest,4258.335,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+23,male,24.3,1,no,southeast,3595.2375,No,Low,$200,None,No,Teacher,0.2,Balanced,
+30,male,21.93,1,no,northeast,3502.635,No,Low,$200,None,No,Student,0.2,Balanced,
+55,male,30.6,2,no,northeast,9460.9316,No,Moderate,$600,None,No,Teacher,0.4,Balanced,
+28,female,31.6,0,no,southeast,8226.235,No,Low,$300,None,No,Teacher,0.3,Balanced,
+37,female,29.42,2,no,southwest,5841.164,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+35,female,27.9,0,yes,southeast,9746.788,Yes,High,$3000,5 years,Yes,Manager,0.7,High in Protein,
+56,female,26.46,1,no,southwest,5290.497,No,Low,$300,None,No,Teacher,0.3,Balanced,
+29,male,27.4,1,no,southwest,4471.156,No,Low,$300,None,No,Teacher,0.3,Balanced,
+43,male,29.09,1,no,southeast,4554.305,No,Low,$300,None,No,Teacher,0.3,Balanced,
+25,female,25.9,1,no,southwest,3260.175,No,Low,$200,None,No,Student,0.2,Balanced,
+36,female,25.12,0,no,northwest,2562.797,No,Low,$200,None,No,Student,0.2,Balanced,
+25,male,31.7,2,no,southeast,3074.284,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+27,female,22.96,1,no,southeast,4182.138,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+30,female,24.29,1,no,southwest,5305.1585,No,Low,$300,None,No,Teacher,0.3,Balanced,
+45,male,37.4,0,no,southwest,3125.768,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+50,female,34.7,0,no,northeast,15140.2915,No,Low,$300,None,No,Retired,0.3,Balanced,
+56,female,27.6,1,no,southeast,16355.8366,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,female,22.98,2,no,southeast,4093.5755,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+37,male,25.2,0,no,southeast,15155.809,No,Low,$300,None,No,Retired,0.3,Balanced,
+26,female,27.85,1,no,northeast,15054.915,No,Low,$300,None,No,Teacher,0.3,Balanced,
+39,female,21.9,0,no,southeast,2175.281,No,Low,$200,None,No,Student,0.2,Balanced,
+32,female,35.8,0,no,southeast,8686.668,No,Low,$300,None,No,Teacher,0.3,Balanced,
+32,male,30.8,2,no,southwest,5684.442,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+25,male,37.45,1,no,southeast,1612.366,No,Low,$100,None,No,Student,0.2,Balanced,
+31,female,27.2,0,no,southwest,5743.563,No,Low,$300,None,No,Teacher,0.3,Balanced,
+52,female,22.8,1,no,southwest,6685.727,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+28,female,30.65,1,no,southwest,4251.4365,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+50,female,32.7,2,no,southeast,9364.071,No,Low,$300,None,No,Retired,0.3,Balanced,
+25,female,22.4,1,no,southwest,2801.956,No,Low,$200,None,No,Student,0.2,Balanced,
+29,male,26.2,2,no,northeast,3342.214,No,Low,$200,None,No,Student,0.2,Balanced,
+26,female,27.05,1,no,southeast,3002.517,No,Low,$300,None,No,Teacher,0.3,Balanced,
+34,female,25.9,0,no,northeast,5731.563,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+40,female,24.5,2,no,northeast,3940.523,No,Moderate,$400,None,No,Teacher,0.4,Balanced,
+27,male,26.5,1,no,southeast,3173.665,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+34,female,31,1,no,northeast,7766.775,No,Low,$300,None,No,Teacher,0.3,Balanced,
+45,female,31.5,1,no,southeast,3647.882,No,Low,$200,None,No,Teacher,0.3,Balanced,
+27,female,27.5,2,no,southeast,4661.183,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+24,female,21.8,0,no,northeast,2276.166,No,Low,$200,None,No,Student,0.2,Balanced,
+38,male,22.5,1,no,southeast,3216.927,No,Low,$300,None,No,Student,0.3,Balanced,
+27,male,22.36,1,no,southwest,3184.027,No,Low,$300,None,No,Student,0.3,Balanced,
+41,female,26.4,1,no,southeast,4002.237,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,female,28.8,0,no,southeast,2655.174,No,Low,$200,None,No,Student,0.2,Balanced,
+35,male,27.8,1,no,southwest,5410.1395,No,Low,$300,None,No,Student,0.2,Balanced,
+30,female,35.35,1,no,southwest,9187.121,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+34,male,21.7,1,no,southwest,1946.795,No,Low,$200,None,No,Student,0.2,Balanced,
+24,male,25.3,2,no,northeast,2278.483,No,Low,$200,None,No,Student,0.2,Balanced,
+27,male,27.3,1,no,southwest,3897.358,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+28,female,22.9,1,no,northeast,2971.479,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+41,male,36.3,2,no,northeast,10970.566,No,Moderate,$500,None,No,Consultant,0.4,Balanced,
+25,male,21.5,2,no,northeast,2335.735,No,Low,$200,None,No,Student,0.2,Balanced,
+42,female,27.55,1,no,southwest,4641.809,No,Low,$300,None,No,Student,0.2,Balanced,
+44,female,23.8,1,no,southeast,4586.831,No,Low,$300,None,No,Teacher,0.3,Balanced,
+39,female,28.9,0,no,southeast,4643.907,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+23,female,36.8,1,no,southeast,16346.9155,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+23,female,25.9,1,no,northeast,2556.609,No,Low,$200,None,No,Student,0.2,Balanced,
+35,female,26.35,1,no,southwest,6388.9255,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,male,25.2,2,no,northeast,2922.344,No,Low,$200,None,No,Student,0.2,Balanced,
+42,female,26.2,1,no,southwest,5637.576,No,Low,$300,None,No,Teacher,0.3,Balanced,
+34,female,29.1,1,no,northeast,5916.744,No,Low,$300,None,No,Teacher,0.3,Balanced,
+38,male,22.2,1,no,northeast,3644.54,No,Low,$300,None,No,Student,0.3,Balanced,
+31,female,29.98,1,no,southwest,5976.611,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+27,female,36.1,0,no,southeast,4922.145,No,Low,$300,None,No,Teacher,0.3,Balanced,
+25,female,35.9,1,no,southwest,4770.342,No,Low,$300,None,No,Teacher,0.3,Balanced,
+23,female,32.8,1,no,southeast,4572.319,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+36,male,28.2,1,no,northeast,4837.916,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+27,male,29.7,0,no,southeast,3977.667,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+32,female,22.6,1,no,southwest,4666.077,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+37,male,25.4,1,no,southwest,6585.717,No,Low,$300,None,No,Student,0.2,Balanced,
+31,male,30.5,2,no,southeast,4342.941,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+35,male,29.5,1,no,southeast,3368.09,No,Low,$300,None,No,Student,0.2,Balanced,
+27,male,23.4,1,no,southeast,3635.941,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+38,female,29.2,1,no,southeast,4395.638,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+27,male,21.5,1,no,northeast,1867.493,No,Low,$200,None,No,Student,0.2,Balanced,
+32,female,30.4,0,no,southwest,4670.821,No,Low,$300,None,No,Teacher,0.3,Balanced,
+33,female,22.8,2,no,southeast,2675.733,No,Low,$200,None,No,Student,0.2,Balanced,
+24,male,22.1,1,no,northeast,2595.794,No,Low,$200,None,No,Student,0.2,Balanced,
+27,male,30.3,1,no,southwest,4131.26,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+30,female,29.5,1,no,northeast,4418.066,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+32,female,26.3,1,no,southeast,4128.908,No,Low,$300,None,No,Teacher,0.3,Balanced,
+35,female,26.8,1,no,southwest,6370.371,No,Low,$300,None,No,Teacher,0.3,Balanced,
+25,male,29.6,2,no,southeast,3197.328,No,Low,$300,None,No,Student,0.2,Balanced,
+32,male,22.8,1,no,southwest,2674.284,No,Low,$200,None,No,Student,0.2,Balanced,
+34,male,31,2,no,southeast,4747.069,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+37,male,27.8,1,no,southwest,4575.642,No,Low,$300,None,No,Student,0.2,Balanced,
+36,female,22.4,1,no,southwest,3935.225,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,female,24.3,2,no,northeast,2905.268,No,Low,$200,None,No,Student,0.2,Balanced,
+30,female,23.8,1,no,northeast,3025.535,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+32,female,32.1,0,no,northeast,5597.205,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+25,female,32.4,1,no,southeast,4452.405,No,Low,$300,None,No,Teacher,0.3,Balanced,
+35,female,27.5,1,no,southeast,7222.44,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,29.2,1,no,northeast,3333.915,No,Low,$300,None,No,Teacher,0.3,Balanced,
+31,male,31.5,2,no,southeast,4337.978,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+37,male,29.3,1,no,southeast,4590.167,No,Low,$300,None,No,Teacher,0.3,Balanced,
+30,female,27.4,1,no,northeast,3401.619,No,Low,$300,None,No,Teacher,0.3,Balanced,
+30,female,36.3,1,no,southeast,6695.893,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,male,29.2,2,no,southeast,3925.755,No,Low,$300,None,No,Student,0.2,Balanced,
+28,male,30.6,1,no,northeast,4172.035,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+31,female,23.7,1,no,northeast,4212.614,No,Low,$300,None,No,Teacher,0.3,Balanced,
+29,female,30.2,1,no,southeast,3851.75,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+33,female,27.7,1,no,northeast,4420.447,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+26,male,26.7,1,no,northeast,3290.559,No,Low,$300,None,No,Teacher,0.3,Balanced,
+28,male,23.3,1,no,southeast,3066.62,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+23,female,25.6,1,no,southeast,3213.944,No,Low,$200,None,No,Student,0.2,Balanced,
+23,male,23.4,2,no,southwest,2412.243,No,Low,$200,None,No,Student,0.2,Balanced,
+26,male,21.8,1,no,northeast,2058.425,No,Low,$200,None,No,Student,0.2,Balanced,
+30,male,26.5,1,no,northeast,4032.027,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,male,27.9,1,no,northeast,3208.106,No,Low,$300,None,No,Teacher,0.3,Balanced,
+23,female,28.2,0,no,northeast,2321.715,No,Low,$200,None,No,Student,0.2,Balanced,
+37,female,35.8,1,no,northeast,5010.287,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+36,female,28,1,no,southeast,5232.813,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+27,female,35.1,1,no,southeast,4594.317,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+34,female,29.9,1,no,southeast,5844.834,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+30,female,22.5,1,no,northeast,3258.302,No,Low,$300,None,No,Teacher,0.3,Balanced,
+36,female,35,1,no,northeast,3920.326,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,26.8,1,no,northeast,2697.698,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,24.1,2,no,northeast,2531.222,No,Low,$200,None,No,Student,0.2,Balanced,
+32,female,22.4,1,no,southeast,3111.227,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,female,25.2,1,no,northeast,3055.106,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,35.6,1,no,northeast,5070.028,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+28,female,25.8,1,no,southeast,4228.991,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+34,female,28.8,1,no,northeast,2938.726,No,Low,$300,None,No,Teacher,0.3,Balanced,
+25,female,36.7,1,no,southeast,4856.554,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+32,female,30.7,1,no,southeast,4632.028,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,female,26.3,2,no,southeast,3544.523,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+29,female,36.2,1,no,southeast,4544.362,No,Low,$300,None,No,Teacher,0.3,Balanced,
+34,male,25.1,2,no,northeast,2232.923,No,Low,$200,None,No,Student,0.2,Balanced,
+23,female,27.1,1,no,southeast,2504.773,No,Low,$200,None,No,Student,0.2,Balanced,
+35,male,27.1,2,no,southwest,2871.382,No,Low,$200,None,No,Student,0.2,Balanced,
+26,female,31,2,no,northeast,3395.628,No,Low,$200,None,No,Teacher,0.3,Balanced,
+37,female,26.2,1,no,northeast,3153.559,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,male,25.8,1,no,northeast,2219.833,No,Low,$200,None,No,Student,0.2,Balanced,
+33,female,30.2,1,no,northeast,4262.065,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+26,male,31.5,1,no,southeast,3988.973,No,Low,$300,None,No,Teacher,0.3,Balanced,
+32,female,29.6,1,no,southeast,4678.687,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+23,female,29.9,1,no,southeast,2664.945,No,Low,$300,None,No,Teacher,0.3,Balanced,
+25,male,23.1,1,no,northeast,2708.38,No,Low,$200,None,No,Student,0.2,Balanced,
+34,male,31.7,1,no,northeast,2934.789,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,26.4,1,no,northeast,3486.489,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+24,male,23.9,1,no,southeast,2518.275,No,Low,$200,None,No,Student,0.2,Balanced,
+26,female,22.1,1,no,northeast,2881.986,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,29.4,1,no,northeast,2617.883,No,Low,$200,None,No,Student,0.2,Balanced,
+35,female,27.8,1,no,southeast,6395.679,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,male,22.5,1,no,southeast,3611.697,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,22.5,1,no,northeast,2342.182,No,Low,$200,None,No,Student,0.2,Balanced,
+25,female,29.1,1,no,southeast,2833.307,No,Low,$200,None,No,Student,0.2,Balanced,
+28,female,26,1,no,southeast,3105.942,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+24,female,21.7,1,no,southeast,2063.238,No,Low,$200,None,No,Student,0.2,Balanced,
+25,male,27.2,1,no,southeast,2960.423,No,Low,$200,None,No,Student,0.2,Balanced,
+27,female,22.8,1,no,southeast,2290.868,No,Low,$200,None,No,Student,0.2,Balanced,
+32,female,28.6,1,no,southeast,3858.332,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+23,male,24.7,2,no,southwest,2541.072,No,Low,$200,None,No,Student,0.2,Balanced,
+25,female,26.9,1,no,southeast,3094.007,No,Low,$300,None,No,Teacher,0.3,Balanced,
+32,female,26.1,1,no,southeast,3770.064,No,Low,$300,None,No,Teacher,0.3,Balanced,
+25,male,28.2,1,no,southeast,3218.529,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+30,female,24.5,1,no,southeast,3377.496,No,Low,$300,None,No,Teacher,0.3,Balanced,
+30,female,31.4,1,no,southeast,4585.785,No,Low,$300,None,No,Teacher,0.3,Balanced,
+32,male,31.8,1,no,northeast,4646.016,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+30,female,28.3,1,no,northeast,3921.017,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+23,female,30.3,1,no,southeast,3013.609,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+34,female,30.8,1,no,northeast,2760.047,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,female,27.5,1,no,southeast,3094.965,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,male,21.7,1,no,southeast,2315.778,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,23.8,1,no,northeast,2191.508,No,Low,$200,None,No,Student,0.2,Balanced,
+35,female,32.7,1,no,southeast,5474.257,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+32,female,24.7,1,no,southeast,3184.943,No,Low,$300,None,No,Teacher,0.3,Balanced,
+30,male,30,1,no,northeast,3910.981,No,Low,$300,None,No,Teacher,0.3,Balanced,
+32,male,24.5,1,no,southeast,3126.913,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,male,22.7,1,no,southeast,3175.963,No,Low,$300,None,No,Teacher,0.3,Balanced,
+29,male,30,1,no,southeast,4272.946,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+23,female,22.6,1,no,southeast,2165.966,No,Low,$200,None,No,Student,0.2,Balanced,
+30,female,23.6,1,no,southeast,3611.134,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+23,male,35.4,1,no,southeast,4890.733,No,Moderate,$400,None,No,Teacher,0.3,Balanced,
+25,female,22.7,1,no,northeast,2292.216,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,22.6,1,no,northeast,2102.356,No,Low,$200,None,No,Student,0.2,Balanced,
+29,female,25.2,1,no,northeast,2650.227,No,Low,$200,None,No,Student,0.2,Balanced,
+27,male,23.6,1,no,northeast,2217.072,No,Low,$200,None,No,Student,0.2,Balanced,
+34,female,23.5,1,no,northeast,2823.755,No,Low,$200,None,No,Student,0.2,Balanced,
+23,male,29.2,1,no,northeast,2430.951,No,Low,$200,None,No,Student,0.2,Balanced,
+26,female,27.1,1,no,southeast,2907.103,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,male,29.8,1,no,southeast,3342.388,No,Low,$300,None,No,Teacher,0.3,Balanced,
+32,male,21.7,1,no,northeast,2938.162,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,29.5,1,no,southeast,2328.742,No,Low,$200,None,No,Student,0.2,Balanced,
+25,female,21.4,1,no,southeast,2306.527,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,32.7,1,no,southeast,2995.702,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,male,24.1,1,no,southeast,3072.971,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,female,26.2,1,no,southeast,3273.463,No,Low,$300,None,No,Teacher,0.3,Balanced,
+25,male,21.2,1,no,southeast,2266.652,No,Low,$200,None,No,Student,0.2,Balanced,
+26,male,23.2,1,no,southeast,2386.984,No,Low,$200,None,No,Student,0.2,Balanced,
+29,male,25.5,1,no,southeast,2972.051,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,26.3,1,no,southeast,2905.637,No,Low,$300,None,No,Teacher,0.3,Balanced,
+23,male,22.4,1,no,northeast,2122.051,No,Low,$200,None,No,Student,0.2,Balanced,
+32,male,22.2,1,no,southeast,2761.722,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,female,22.5,1,no,southeast,2422.908,No,Low,$200,None,No,Student,0.2,Balanced,
+30,female,22.1,1,no,southeast,2940.314,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,male,31.6,1,no,southeast,3280.245,No,Low,$300,None,No,Teacher,0.3,Balanced,
+23,male,21.6,1,no,southeast,2197.041,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,27.8,1,no,southeast,3547.472,No,Low,$300,None,No,Teacher,0.3,Balanced,
+32,male,28.3,1,no,southeast,3817.051,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+25,male,29.4,1,no,southeast,3221.749,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,male,23.5,1,no,northeast,2951.688,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,female,27.2,1,no,southeast,3183.768,No,Low,$300,None,No,Teacher,0.3,Balanced,
+30,female,23.4,1,no,southeast,3137.642,No,Low,$300,None,No,Teacher,0.3,Balanced,
+34,male,21.5,1,no,northeast,2615.658,No,Low,$200,None,No,Student,0.2,Balanced,
+29,female,24.2,1,no,southeast,2631.192,No,Low,$200,None,No,Student,0.2,Balanced,
+25,female,22.3,1,no,southeast,2194.148,No,Low,$200,None,No,Student,0.2,Balanced,
+30,female,32.6,1,no,southeast,2872.516,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,male,32.2,1,no,southeast,2970.713,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,male,27.2,1,no,northeast,2740.652,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,26.8,1,no,southeast,2812.437,No,Low,$300,None,No,Teacher,0.3,Balanced,
+23,male,26.8,1,no,southeast,2781.616,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,male,22.8,1,no,southeast,2546.678,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,21.8,1,no,southeast,2192.103,No,Low,$200,None,No,Student,0.2,Balanced,
+26,female,21.6,1,no,southeast,2336.381,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,30.6,1,no,southeast,3111.908,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+27,female,21.2,1,no,southeast,2405.604,No,Low,$200,None,No,Student,0.2,Balanced,
+25,male,23.4,1,no,southeast,2390.668,No,Low,$200,None,No,Student,0.2,Balanced,
+32,male,25.1,1,no,southeast,3198.565,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,24.9,1,no,southeast,2210.769,No,Low,$200,None,No,Student,0.2,Balanced,
+26,male,23.8,1,no,southeast,2405.015,No,Low,$200,None,No,Student,0.2,Balanced,
+23,male,25.1,1,no,southeast,2596.487,No,Low,$200,None,No,Student,0.2,Balanced,
+23,female,25.2,1,no,southeast,2616.212,No,Low,$200,None,No,Student,0.2,Balanced,
+27,female,30.5,1,no,southeast,3248.519,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+27,female,28,1,no,southeast,2838.152,No,Low,$300,None,No,Teacher,0.3,Balanced,
+29,female,24.7,1,no,northeast,2871.914,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,male,29.2,1,no,southeast,3191.372,No,Low,$300,None,No,Teacher,0.3,Balanced,
+23,male,29.1,1,no,southeast,2606.771,No,Low,$200,None,No,Student,0.2,Balanced,
+26,female,21.3,1,no,southeast,2375.975,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,31.8,1,no,southeast,3090.024,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,male,26.4,1,no,southeast,2838.415,No,Low,$300,None,No,Teacher,0.3,Balanced,
+29,female,22.5,1,no,southeast,2441.055,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,22.8,1,no,southeast,2120.279,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,29.7,1,no,southeast,2491.327,No,Low,$200,None,No,Student,0.2,Balanced,
+27,male,22.2,1,no,southeast,2412.259,No,Low,$200,None,No,Student,0.2,Balanced,
+32,male,31.7,1,no,southeast,3860.786,No,Low,$300,None,No,Teacher,0.3,Balanced,
+30,female,24.8,1,no,southeast,3532.642,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,27.4,1,no,southeast,2748.919,No,Low,$300,None,No,Teacher,0.3,Balanced,
+29,male,22.3,1,no,southeast,2451.275,No,Low,$200,None,No,Student,0.2,Balanced,
+24,male,25.8,1,no,southeast,2290.496,No,Low,$200,None,No,Student,0.2,Balanced,
+25,female,23.1,1,no,southeast,2382.235,No,Low,$200,None,No,Student,0.2,Balanced,
+30,male,31.9,1,no,southeast,3281.268,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,29.3,1,no,southeast,2654.96,No,Low,$300,None,No,Teacher,0.3,Balanced,
+32,female,24.8,1,no,southeast,3161.522,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,female,30.7,1,no,southeast,3442.623,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+23,female,21.7,1,no,southeast,2145.287,No,Low,$200,None,No,Student,0.2,Balanced,
+29,male,31,1,no,southeast,3717.694,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,male,30.6,1,no,southeast,3138.688,No,Moderate,$300,None,No,Teacher,0.3,Balanced,
+24,female,29.4,1,no,southeast,2968.584,No,Low,$300,None,No,Teacher,0.3,Balanced,
+23,female,29.8,1,no,southeast,2677.626,No,Low,$300,None,No,Teacher,0.3,Balanced,
+32,female,27.1,1,no,southeast,3086.148,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,25.7,1,no,southeast,2634.912,No,Low,$200,None,No,Student,0.2,Balanced,
+25,female,23.2,1,no,southeast,2220.968,No,Low,$200,None,No,Student,0.2,Balanced,
+26,female,29.2,1,no,southeast,3034.935,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,female,24.7,1,no,southeast,2391.804,No,Low,$300,None,No,Teacher,0.3,Balanced,
+25,female,25.6,1,no,southeast,2445.859,No,Low,$200,None,No,Student,0.2,Balanced,
+24,female,26.9,1,no,southeast,2652.215,No,Low,$300,None,No,Teacher,0.3,Balanced,
+25,male,27.3,1,no,southeast,2990.935,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,female,27.5,1,no,southeast,2844.604,No,Low,$300,None,No,Teacher,0.3,Balanced,
+29,female,29.5,1,no,southeast,3062.915,No,Low,$300,None,No,Teacher,0.3,Balanced,
+23,female,28.6,1,no,southeast,2873.695,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,female,28.7,1,no,southeast,2820.462,No,Low,$300,None,No,Teacher,0.3,Balanced,
+24,female,26.7,1,no,southeast,2737.672,No,Low,$300,None,No,Teacher,0.3,Balanced,
+27,female,29.2,1,no,southeast,2947.049,No,Low,$300,None,No,Teacher,0.3,Balanced,
+29,female,24.5,1,no,southeast,2550.569,No,Low,$300,None,No,Teacher,0.3,Balanced,
+26,female,23.9,1,no,southeast,2326.408,No,Low,$200,None,No,Student,0.2,Balanced,
+43,male,35.97,3,yes,southeast,42124.5153,Yes,High,$3500,5 years,Yes,Teacher,0.4,Balanced,42200.5
+49,male,35.86,0,no,southeast,8124.4084,No,Low,$2000,0 years,No,Student,0.2,Balanced,8150
+27,female,31.4,0,yes,southwest,34838.873,Yes,Moderate,$3000,2 years,No,Engineer,0.3,Balanced,35000
+52,male,33.25,0,no,northeast,9722.7695,No,Low,$1500,0 years,No,Manager,0.2,Balanced,9750
+50,male,32.205,0,no,northwest,8835.26495,No,Low,$2000,0 years,No,Manager,0.2,Balanced,8850
+54,male,32.775,0,no,northeast,10435.06525,No,Low,$1800,0 years,No,Teacher,0.3,Balanced,10450
+44,female,27.645,0,no,northwest,7421.19455,No,Low,$1200,0 years,No,Student,0.2,Balanced,7450
+32,male,37.335,1,no,northeast,4667.60765,No,Low,$1000,0 years,No,Engineer,0.3,Balanced,4700
+34,male,25.27,1,no,northwest,4894.7533,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,4900
+26,female,29.64,4,no,northeast,24671.66334,Yes,High,$4000,3 years,Yes,Manager,0.4,Balanced,24700
+34,male,30.8,0,yes,southwest,35491.64,Yes,High,$3500,2 years,No,Engineer,0.4,Balanced,35500
+57,male,40.945,0,no,northeast,11566.30055,No,Low,$2500,0 years,No,Teacher,0.2,Balanced,11600
+29,male,27.2,0,no,southwest,2866.091,No,Low,$1000,0 years,No,Student,0.2,Balanced,2880
+40,male,34.105,1,no,northeast,6600.20595,No,Low,$1500,1 year,No,Manager,0.3,Balanced,6650
+27,female,23.21,1,no,southeast,3561.8889,No,Moderate,$2000,1 year,No,Student,0.3,Balanced,3580
+45,male,36.48,2,yes,northwest,42760.5022,Yes,High,$5000,4 years,No,Engineer,0.4,Balanced,42800
+64,female,33.8,1,yes,southwest,47928.03,Yes,High,$6000,5 years,Yes,Manager,0.4,Balanced,48000
+52,male,36.7,0,no,southwest,9144.565,No,Low,$1500,0 years,No,Manager,0.2,Balanced,9150
+61,female,36.385,1,yes,northeast,48517.56315,Yes,High,$5500,4 years,Yes,Teacher,0.4,Balanced,48550
+52,male,27.36,0,yes,northwest,24393.6224,Yes,Moderate,$3000,2 years,No,Manager,0.3,Balanced,24400
+61,female,31.16,0,no,northwest,13429.0354,No,Low,$2000,0 years,No,Teacher,0.2,Balanced,13450
+56,female,28.785,0,no,northeast,11658.37915,No,Low,$1800,0 years,No,Manager,0.2,Balanced,11700
+43,female,35.72,2,no,northeast,19144.57652,No,Moderate,$2500,2 years,Yes,Teacher,0.3,Balanced,19150
+64,male,34.5,0,no,southwest,13822.803,No,Low,$2000,0 years,No,Student,0.2,Balanced,13850
+60,male,25.74,0,no,southeast,12142.5786,No,Low,$1800,0 years,No,Teacher,0.2,Balanced,12150
+62,male,27.55,1,no,northwest,13937.6665,No,Moderate,$2200,1 year,No,Engineer,0.3,Balanced,13950
+50,male,32.3,1,yes,northeast,41919.097,Yes,High,$5000,4 years,Yes,Manager,0.4,Balanced,41950
+46,female,27.72,1,no,southeast,8232.6388,No,Moderate,$2500,1 year,No,Teacher,0.3,Balanced,8250
+24,female,27.6,0,no,southwest,18955.22017,No,Moderate,$3500,0 years,No,Student,0.3,Balanced,18980
+62,male,30.02,0,no,northwest,13352.0998,No,Low,$2000,0 years,No,Manager,0.2,Balanced,13370
+60,female,27.55,0,no,northeast,13217.0945,No,Low,$2000,0 years,No,Teacher,0.2,Balanced,13230
+63,male,36.765,0,no,northeast,13981.85035,No,Low,$2000,0 years,No,Manager,0.2,Balanced,14000
+49,female,41.47,4,no,southeast,10977.2063,Yes,High,$4000,3 years,Yes,Teacher,0.4,Balanced,11000
+34,female,29.26,3,no,southeast,6184.2994,No,Moderate,$2500,2 years,No,Student,0.3,Balanced,6200
+33,male,35.75,2,no,southeast,4889.9995,No,Moderate,$2000,2 years,No,Teacher,0.3,Balanced,4900
+46,male,33.345,1,no,northeast,8334.45755,No,Moderate,$2200,1 year,No,Manager,0.3,Balanced,8350
+36,female,29.92,1,no,southeast,5478.0368,No,Moderate,$2500,1 year,No,Student,0.3,Balanced,5500
+19,male,27.835,0,no,northwest,1635.73365,No,Low,$1000,0 years,No,Student,0.2,Balanced,1650
+57,female,23.18,0,no,northwest,11830.6072,No,Low,$1800,0 years,No,Teacher,0.2,Balanced,11850
+50,female,25.6,0,no,southwest,8932.084,No,Moderate,$2000,0 years,No,Manager,0.3,Balanced,8950
+30,female,27.7,0,no,southwest,3554.203,No,Low,$1500,0 years,No,Teacher,0.2,Balanced,3570
+33,male,35.245,0,no,northeast,12404.8791,No,Low,$2500,0 years,No,Manager,0.2,Balanced,12420
+18,female,38.28,0,no,southeast,14133.03775,No,High,$3000,1 year,Yes,Student,0.3,Balanced,14150
+46,male,27.6,0,no,southwest,24603.04837,Yes,High,$4000,3 years,No,Engineer,0.4,Balanced,24620
+46,male,43.89,3,no,southeast,8944.1151,No,Moderate,$3000,4 years,Yes,Teacher,0.3,Balanced,8950
+47,male,29.83,3,no,northwest,9620.3307,Yes,High,$3500,3 years,No,Engineer,0.4,Balanced,9650
+23,male,41.91,0,no,southeast,1837.2819,No,Low,$1000,0 years,No,Student,0.2,Balanced,1850
+18,female,20.79,0,no,southeast,1607.5101,No,Low,$1000,0 years,No,Student,0.2,Balanced,1620
+48,female,32.3,2,no,northeast,10043.249,No,Moderate,$2500,2 years,Yes,Teacher,0.3,Balanced,10050
+35,male,30.5,1,no,southwest,4751.07,No,Low,$1500,1 year,No,Manager,0.3,Balanced,4770
+19,female,21.7,0,yes,southwest,13844.506,Yes,High,$3500,2 years,No,Student,0.4,Balanced,13850
+21,female,26.4,1,no,southwest,2597.779,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,2600
+21,female,21.89,2,no,southeast,3180.5101,No,Moderate,$2000,1 year,No,Student,0.3,Balanced,3200
+49,female,30.78,1,no,northeast,9778.3472,No,Low,$1500,0 years,No,Teacher,0.2,Balanced,9800
+56,female,32.3,3,no,northeast,13430.265,No,Moderate,$2500,2 years,Yes,Manager,0.3,Balanced,13450
+42,female,24.985,2,no,northwest,8017.06115,No,Low,$2000,1 year,No,Teacher,0.3,Balanced,8050
+44,male,32.015,2,no,northwest,8116.26885,No,Moderate,$2500,2 years,No,Engineer,0.3,Balanced,8120
+18,male,30.4,3,no,northeast,3481.868,No,Moderate,$2000,2 years,No,Student,0.3,Balanced,3490
+61,female,21.09,0,no,northwest,13415.0381,No,Low,$1500,0 years,No,Teacher,0.2,Balanced,13430
+57,female,22.23,0,no,northeast,12029.2867,No,Low,$1500,0 years,No,Student,0.2,Balanced,12050
+42,female,33.155,1,no,northeast,7639.41745,No,Moderate,$2000,1 year,No,Teacher,0.3,Balanced,7640
+26,male,32.9,2,yes,southwest,36085.219,Yes,High,$3500,2 years,No,Engineer,0.4,Balanced,36100
+20,male,33.33,0,no,southeast,1391.5287,No,Low,$1000,0 years,No,Student,0.2,Balanced,1400
+23,female,28.31,0,yes,northwest,18033.9679,Yes,High,$3000,2 years,Yes,Teacher,0.4,Balanced,18050
+39,female,24.89,3,yes,northeast,21659.9301,Yes,High,$4000,3 years,Yes,Manager,0.4,Balanced,21670
+24,male,40.15,0,yes,southeast,38126.2465,Yes,High,$3500,3 years,Yes,Manager,0.4,Balanced,38130
+64,female,30.115,3,no,northwest,16455.70785,No,Moderate,$2500,2 years,No,Teacher,0.3,Balanced,16460
+62,male,31.46,1,no,southeast,27000.98473,Yes,High,$3500,3 years,Yes,Manager,0.4,Balanced,27010
+27,female,17.955,2,yes,northeast,15006.57945,Yes,High,$4000,3 years,Yes,Student,0.4,Balanced,15020
+55,male,30.685,0,yes,northeast,42303.69215,Yes,High,$4000,3 years,Yes,Engineer,0.4,Balanced,42310
+55,male,33,0,no,southeast,20781.48892,No,Moderate,$3000,2 years,No,Engineer,0.3,Balanced,20800
+35,female,43.34,2,no,southeast,5846.9176,No,Moderate,$2000,2 years,No,Teacher,0.3,Balanced,5850
+44,male,22.135,2,no,northeast,8302.53565,No,Moderate,$2000,1 year,No,Manager,0.3,Balanced,8310
+19,male,34.4,0,no,southwest,1261.859,No,Low,$1000,0 years,No,Student,0.2,Balanced,1270
+58,female,39.05,0,no,southeast,11856.4115,No,Low,$1500,0 years,No,Student,0.2,Balanced,11870
+50,male,25.365,2,no,northwest,30284.64294,Yes,High,$3500,3 years,Yes,Engineer,0.4,Balanced,30290
+26,female,22.61,0,no,northwest,3176.8159,No,Low,$1000,0 years,No,Student,0.2,Balanced,3180
+24,female,30.21,3,no,northwest,4618.0799,No,Moderate,$2000,1 year,No,Teacher,0.3,Balanced,4620
+48,male,35.625,4,no,northeast,10736.87075,No,High,$3500,3 years,No,Engineer,0.4,Balanced,10740
+19,female,37.43,0,no,northwest,2138.0707,No,Low,$1500,0 years,No,Student,0.2,Balanced,2140
+48,male,31.445,1,no,northeast,8964.06055,No,Moderate,$2000,1 year,No,Engineer,0.3,Balanced,8970
+49,male,31.35,1,no,northeast,9290.1395,No,Moderate,$2000,1 year,No,Engineer,0.3,Balanced,9300
+46,female,32.3,2,no,northeast,9411.005,No,Moderate,$2500,2 years,No,Manager,0.3,Balanced,9420
+46,male,19.855,0,no,northwest,7526.70645,No,Low,$1500,0 years,No,Student,0.2,Balanced,7530
+43,female,34.4,3,no,southwest,8522.003,No,Moderate,$2000,2 years,No,Teacher,0.3,Balanced,8530
+21,male,31.02,0,no,southeast,16586.49771,Yes,High,$3500,3 years,Yes,Engineer,0.4,Balanced,16600
+64,male,25.6,2,no,southwest,14988.432,No,Moderate,$2000,2 years,No,Manager,0.3,Balanced,15000
+18,female,38.17,0,no,southeast,1631.6683,No,Low,$1000,0 years,No,Student,0.2,Balanced,1635
+51,female,20.6,0,no,southwest,9264.797,No,Low,$1500,0 years,No,Teacher,0.2,Balanced,9270
+47,male,47.52,1,no,southeast,8083.9198,No,Moderate,$2000,1 year,No,Engineer,0.3,Balanced,8100
+54,female,22.31,2,no,northeast,9254.734,No,Moderate,$2000,1 year,No,Teacher,0.3,Balanced,9260
+21,male,22.835,1,no,northwest,6620.2954,No,Low,$1000,1 year,No,Student,0.3,Balanced,6630
+57,male,22.54,2,no,northwest,6848.0625,No,Moderate,$2000,1 year,No,Engineer,0.3,Balanced,6850
+27,female,27.8,1,no,northeast,10482.7907,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,10500
+29,female,20.22,1,no,southeast,1657.567,No,Low,$1000,0 years,No,Student,0.2,Balanced,1660
+24,female,32.3,0,no,southwest,3618.786,No,Moderate,$2000,1 year,No,Teacher,0.3,Balanced,3620
+21,female,30.21,1,no,southwest,3501.044,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,3505
+55,female,30.75,2,no,northeast,22110.156,No,Moderate,$2500,2 years,No,Teacher,0.3,Balanced,22120
+39,male,24.08,0,no,southeast,1620.9065,No,Low,$1500,0 years,No,Student,0.2,Balanced,1625
+18,male,38.99,0,no,northeast,1560.712,No,Low,$1000,0 years,No,Student,0.2,Balanced,1570
+29,female,24.7,2,no,northeast,1967.242,No,Moderate,$2000,2 years,No,Teacher,0.3,Balanced,1970
+22,female,28.29,2,no,northeast,2737.6308,No,Low,$1500,1 year,No,Student,0.3,Balanced,2740
+24,female,22.1,1,no,southeast,1601.649,No,Low,$1000,0 years,No,Student,0.2,Balanced,1605
+29,female,23.52,1,no,northeast,2096.102,No,Moderate,$2000,1 year,No,Teacher,0.3,Balanced,2100
+21,female,36.53,0,no,southeast,2175.6445,No,Low,$1500,0 years,No,Student,0.2,Balanced,2180
+38,male,35.95,0,no,southeast,4582.378,No,Moderate,$2000,2 years,No,Teacher,0.3,Balanced,4590
+26,female,22.7,0,no,southwest,1387.026,No,Low,$1000,0 years,No,Student,0.2,Balanced,1390
+36,male,35.82,2,no,southeast,2560.562,No,Moderate,$2000,1 year,No,Engineer,0.3,Balanced,2570
+36,female,33.665,3,no,northeast,7451.971,No,Moderate,$2000,2 years,No,Manager,0.3,Balanced,7450
+41,female,26.95,1,no,southwest,3720.992,No,Moderate,$2000,1 year,No,Teacher,0.3,Balanced,3730
+38,female,28.78,1,no,southwest,2561.114,No,Moderate,$2000,1 year,No,Student,0.3,Balanced,2570
+45,male,24.1,2,no,southeast,3464.86,No,Moderate,$2000,2 years,No,Teacher,0.3,Balanced,3470
+21,male,30.2,1,no,southeast,3582.482,No,Low,$1500,1 year,No,Manager,0.3,Balanced,3585
+20,female,23.67,2,no,southeast,2071.155,No,Low,$1000,0 years,No,Student,0.2,Balanced,2075
+54,female,31.165,0,no,southwest,3917.429,No,Moderate,$2000,2 years,No,Teacher,0.3,Balanced,3920
+37,female,34.07,3,no,southwest,4067.538,No,Low,$1500,2 years,No,Teacher,0.3,Balanced,4070
+30,female,38.5,1,no,southwest,1984.95,No,Low,$1500,1 year,No,Student,0.3,Balanced,1990
+47,female,20.22,0,no,southeast,1407.2385,No,Low,$1000,0 years,No,Student,0.2,Balanced,1410
+43,female,20.99,2,no,northeast,2450.361,No,Low,$1000,0 years,No,Student,0.2,Balanced,2450
+33,male,21.43,0,no,southeast,3631.682,No,Low,$1000,0 years,No,Student,0.2,Balanced,3640
+34,male,28.89,1,no,southwest,2570.637,No,Low,$1000,1 year,No,Student,0.3,Balanced,2575
+41,male,27.66,2,no,southwest,4342.153,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,4345
+39,male,26.4,2,no,northwest,4655.43,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,4660
+35,female,37.22,3,no,southeast,1569.4,No,Low,$1000,2 years,No,Student,0.2,Balanced,1570
+40,female,20.51,0,no,southwest,3480.913,No,Low,$1000,0 years,No,Student,0.2,Balanced,3490
+25,male,27.7,1,no,southeast,2304.7,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2310
+27,female,25.38,1,no,southeast,2110.076,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,2115
+35,female,22.11,0,no,northeast,1914.735,No,Low,$1000,0 years,No,Student,0.2,Balanced,1920
+22,female,31.75,0,no,northeast,1819.74,No,Low,$1000,0 years,No,Student,0.2,Balanced,1820
+24,female,37.43,3,no,southwest,2245.442,No,Low,$1500,2 years,No,Teacher,0.3,Balanced,2250
+38,male,22.39,2,no,northwest,3384.72,No,Low,$1500,1 year,No,Student,0.3,Balanced,3390
+22,male,25.44,0,no,northwest,1249.444,No,Low,$1000,0 years,No,Student,0.2,Balanced,1250
+21,female,27.68,2,no,southwest,2720.105,No,Low,$1000,1 year,No,Student,0.3,Balanced,2730
+18,male,22.64,2,no,southeast,1468.635,No,Low,$1000,0 years,No,Student,0.2,Balanced,1470
+42,male,30.91,0,no,northwest,2796.704,No,Low,$1500,0 years,No,Student,0.2,Balanced,2800
+24,female,32.3,2,no,southwest,2202.89,No,Moderate,$1500,1 year,No,Student,0.3,Balanced,2205
+26,female,33.2,1,no,northeast,2681.936,No,Moderate,$2000,1 year,No,Teacher,0.3,Balanced,2690
+37,male,27.79,1,no,southeast,2901.124,No,Low,$1500,1 year,No,Student,0.3,Balanced,2910
+29,female,36.1,1,no,southeast,1717.703,No,Low,$1500,1 year,No,Student,0.3,Balanced,1720
+42,female,24.5,2,no,southwest,1825.508,No,Low,$1000,1 year,No,Student,0.2,Balanced,1830
+40,female,33.69,2,no,northeast,1516.411,No,Low,$1000,0 years,No,Student,0.2,Balanced,1520
+18,male,24.7,0,no,southwest,1526.368,No,Low,$1000,0 years,No,Student,0.2,Balanced,1530
+41,female,22.43,1,no,southeast,3455.915,No,Low,$1500,1 year,No,Student,0.3,Balanced,3460
+19,male,23.3,2,no,southeast,1424.47,No,Low,$1000,0 years,No,Student,0.2,Balanced,1430
+31,female,23.67,2,no,southeast,2096.473,No,Low,$1000,0 years,No,Student,0.2,Balanced,2100
+21,male,20.44,1,no,southeast,1466.518,No,Low,$1000,0 years,No,Student,0.2,Balanced,1470
+43,female,22.44,2,no,northeast,2736.17,No,Low,$1000,0 years,No,Student,0.2,Balanced,2740
+43,female,22.1,2,no,northeast,2084.425,No,Low,$1000,0 years,No,Student,0.2,Balanced,2090
+34,male,20.55,2,no,southeast,1691.572,No,Low,$1000,0 years,No,Student,0.2,Balanced,1700
+21,female,24.32,2,no,southeast,1665.424,No,Low,$1000,0 years,No,Student,0.2,Balanced,1670
+29,female,26.83,1,no,southeast,2073.086,No,Low,$1000,0 years,No,Student,0.2,Balanced,2080
+28,female,33.14,2,no,southwest,3180.843,No,Moderate,$1500,2 years,No,Teacher,0.3,Balanced,3185
+36,male,22.5,1,no,southeast,1827.587,No,Low,$1000,1 year,No,Student,0.2,Balanced,1830
+22,male,35.2,2,no,southeast,3282.185,No,Moderate,$1500,2 years,No,Teacher,0.3,Balanced,3290
+21,female,22.78,0,no,southwest,1216.31,No,Low,$1000,0 years,No,Student,0.2,Balanced,1220
+25,female,30.76,2,no,southeast,1661.482,No,Moderate,$1000,1 year,No,Student,0.3,Balanced,1670
+21,male,36.09,2,no,southwest,2201.818,No,Moderate,$1500,2 years,No,Teacher,0.3,Balanced,2210
+32,female,33.74,1,no,northeast,1794.104,No,Low,$1000,1 year,No,Student,0.2,Balanced,1800
+40,male,28.6,2,no,northwest,3016.368,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,3020
+24,male,22.8,2,no,southeast,2023.161,No,Low,$1000,0 years,No,Student,0.2,Balanced,2025
+34,female,26.21,1,no,southeast,2206.596,No,Low,$1000,1 year,No,Student,0.2,Balanced,2210
+31,female,37.03,3,no,southeast,2223.056,No,Low,$1500,2 years,No,Teacher,0.3,Balanced,2230
+30,female,23.48,2,no,southeast,1505.663,No,Low,$1000,1 year,No,Student,0.2,Balanced,1510
+22,female,35.85,1,no,southeast,2625.456,No,Low,$1000,1 year,No,Student,0.2,Balanced,2630
+27,female,25.43,2,no,northeast,1973.114,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,1980
+24,female,20.23,2,no,northeast,1344.741,No,Low,$1000,0 years,No,Student,0.2,Balanced,1350
+29,female,30.41,1,no,southeast,2336.868,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2340
+30,female,22.25,0,no,southeast,1376.326,No,Low,$1000,0 years,No,Student,0.2,Balanced,1380
+35,male,33.8,2,no,southwest,2274.966,No,Moderate,$1500,2 years,No,Teacher,0.3,Balanced,2280
+21,male,21.91,2,no,southeast,1895.296,No,Low,$1000,1 year,No,Student,0.2,Balanced,1900
+37,male,24.12,2,no,northwest,2172.436,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,2180
+40,male,33.9,1,no,southeast,1553.225,No,Low,$1000,1 year,No,Student,0.2,Balanced,1560
+35,female,36.9,2,no,northeast,1540.88,No,Low,$1000,1 year,No,Student,0.2,Balanced,1550
+38,female,25.66,1,no,southwest,2085.79,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2090
+25,female,25.14,2,no,northeast,1454.33,No,Low,$1000,0 years,No,Student,0.2,Balanced,1460
+37,male,27.6,1,no,southeast,3026.732,No,Low,$1500,1 year,No,Student,0.3,Balanced,3030
+25,female,31.38,2,no,southwest,2658.27,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2660
+32,female,27.32,2,no,southwest,2436.511,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2440
+24,male,25.15,1,no,southeast,1790.32,No,Low,$1000,0 years,No,Student,0.2,Balanced,1795
+32,female,30.1,1,no,southeast,2595.678,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2600
+22,female,27.55,0,no,southeast,1731.79,No,Low,$1000,0 years,No,Student,0.2,Balanced,1735
+34,female,21.35,1,no,southeast,2093.53,No,Low,$1000,1 year,No,Student,0.2,Balanced,2100
+27,female,26.4,1,no,southwest,1460.456,No,Low,$1000,1 year,No,Student,0.2,Balanced,1465
+21,male,27.06,2,no,southeast,2848.365,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,2850
+40,male,20.35,1,no,southeast,1492.662,No,Low,$1000,1 year,No,Student,0.2,Balanced,1500
+32,male,36.3,1,no,southwest,2334.223,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2340
+37,female,27.52,1,no,southwest,2423.508,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2430
+21,male,22.78,0,no,southeast,1425.796,No,Low,$1000,0 years,No,Student,0.2,Balanced,1430
+25,male,29.61,1,no,southeast,2694.46,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,2700
+30,male,21.7,0,no,southeast,1401.015,No,Low,$1000,0 years,No,Student,0.2,Balanced,1410
+29,male,21.62,0,no,southeast,1550.953,No,Low,$1000,0 years,No,Student,0.2,Balanced,1560
+29,female,23.12,2,no,southeast,1887.731,No,Low,$1000,0 years,No,Student,0.2,Balanced,1890
+35,female,30.1,2,no,southwest,2270.116,No,Moderate,$1500,2 years,No,Teacher,0.3,Balanced,2275
+33,female,23.16,0,no,southeast,1370.278,No,Low,$1000,0 years,No,Student,0.2,Balanced,1375
+34,female,21.96,2,no,southeast,1655.59,No,Low,$1000,0 years,No,Student,0.2,Balanced,1660
+35,male,30.88,1,no,southwest,2085.603,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2090
+34,male,22.48,1,no,southeast,1715.029,No,Low,$1000,1 year,No,Student,0.2,Balanced,1720
+27,female,25.2,1,no,southwest,2090.24,No,Low,$1000,1 year,No,Student,0.2,Balanced,2095
+37,female,33.58,1,no,southwest,2372.145,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,2375
+27,female,36.1,2,no,southwest,2523.637,No,Low,$1500,2 years,No,Teacher,0.3,Balanced,2530
+38,female,26.36,2,no,southwest,2264.83,No,Moderate,$1500,2 years,No,Teacher,0.3,Balanced,2270
+29,male,22.42,2,no,southeast,1881.065,No,Low,$1000,0 years,No,Student,0.2,Balanced,1885
+30,male,29.15,2,no,southeast,2642.894,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2650
+23,male,22.98,0,no,southeast,1648.425,No,Low,$1000,0 years,No,Student,0.2,Balanced,1650
+34,female,23.21,1,no,southeast,2260.764,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2265
+40,female,23.28,0,no,northeast,1466.96,No,Low,$1000,0 years,No,Student,0.2,Balanced,1470
+22,female,35.65,2,no,southeast,2384.48,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2390
+34,female,24.75,2,no,northeast,2281.09,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2290
+37,male,31.59,1,no,southwest,2452.544,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2460
+25,female,23.6,0,no,southeast,1875.392,No,Low,$1000,1 year,No,Student,0.2,Balanced,1880
+25,female,24.68,2,no,northeast,1477.773,No,Low,$1000,1 year,No,Student,0.2,Balanced,1480
+21,female,22.66,2,no,southwest,1138.454,No,Low,$1000,0 years,No,Student,0.2,Balanced,1140
+27,female,21.56,1,no,northeast,1696.583,No,Low,$1000,0 years,No,Student,0.2,Balanced,1700
+30,male,22.54,1,no,southeast,1420.004,No,Low,$1000,1 year,No,Student,0.2,Balanced,1425
+28,female,35.98,2,no,southwest,2285.37,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2290
+27,female,30.91,2,no,southeast,2663.344,No,Moderate,$1500,2 years,No,Teacher,0.3,Balanced,2670
+32,female,21.38,1,no,northeast,1451.154,No,Low,$1000,1 year,No,Student,0.2,Balanced,1455
+25,female,32.98,2,no,southwest,2526.54,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2530
+34,female,30.59,2,no,southeast,2527.418,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2530
+23,female,24.98,1,no,southeast,2054.11,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2060
+27,female,33.75,2,no,southwest,2093.1,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,2095
+32,male,28.54,1,no,southwest,1803.188,No,Low,$1000,1 year,No,Student,0.2,Balanced,1810
+25,female,25.16,0,no,northeast,1345.467,No,Low,$1000,0 years,No,Student,0.2,Balanced,1350
+32,male,21.91,1,no,northeast,1552.647,No,Low,$1000,1 year,No,Student,0.2,Balanced,1555
+27,male,24.83,2,no,southeast,2033.496,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,2040
+35,female,35.88,1,no,southwest,2360.428,No,Moderate,$1500,2 years,No,Teacher,0.3,Balanced,2365
+22,female,24.84,1,no,southeast,1610.724,No,Low,$1000,0 years,No,Student,0.2,Balanced,1615
+38,female,24.47,1,no,southwest,1643.715,No,Low,$1000,1 year,No,Student,0.2,Balanced,1645
+22,female,31.54,2,no,northeast,2342.927,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2350
+23,female,28.98,1,no,southeast,1896.066,No,Low,$1000,0 years,No,Student,0.2,Balanced,1900
+32,male,21.77,2,no,southwest,1596.825,No,Low,$1000,0 years,No,Student,0.2,Balanced,1600
+25,female,28.44,1,no,southwest,1712.406,No,Low,$1000,1 year,No,Student,0.2,Balanced,1715
+23,female,23.76,1,no,southeast,1481.963,No,Low,$1000,0 years,No,Student,0.2,Balanced,1485
+25,female,27.63,1,no,southwest,1756.695,No,Low,$1000,1 year,No,Student,0.2,Balanced,1760
+34,female,30.53,2,no,southeast,2114.454,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2120
+30,female,24.82,2,no,southwest,2043.657,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2050
+24,male,33.06,1,no,southwest,2254.148,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2260
+38,male,25.68,2,no,southeast,2268.309,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2270
+25,female,29.88,1,no,southeast,1715.055,No,Low,$1500,1 year,No,Teacher,0.3,Balanced,1720
+35,male,26.57,2,no,southeast,1754.571,No,Low,$1500,2 years,No,Teacher,0.3,Balanced,1760
+27,female,30.54,2,no,northeast,2077.438,No,Moderate,$1500,2 years,No,Teacher,0.3,Balanced,2080
+32,female,25.89,1,no,southeast,1970.042,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,1980
+33,female,30.69,1,no,southeast,2308.154,No,Moderate,$1500,1 year,No,Teacher,0.3,Balanced,2310
